@@ -24,12 +24,12 @@ using RC522 sensor clone the ic card UID to another new card
 
 - when boot up
 
-<img src="pic/1.jpg" width="200">
+<img src="pic/1.jpg" width="400">
 
 - scan original card to record uid, than red light lights on means you can scan the new card and write the UID into it's block 0
 
-<img src="pic/2.jpg" width="200">
+<img src="pic/2.jpg" width="400">
 
 - when the green light lights on means the UID is copy completely
 
-<img src="pic/3.jpg" width="200">
+<img src="pic/3.jpg" width="400">
