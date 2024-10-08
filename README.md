@@ -10,13 +10,26 @@ using RC522 sensor clone the ic card UID to another new card
 - setup sensor
     - I2C LCD display
     - rc522
-    ``` cpp
-      Serial.println(MOSI);
-      Serial.print("MISO: ");
-      Serial.println(MISO);
-      Serial.print("SCK: ");
-      Serial.println(SCK);
-      Serial.print("SS: ");
-      Serial.println(SS);  
-  ```
+        ``` cpp
+            // using print pin info to check these pin number
+            Serial.print("MOSI: ");
+            Serial.println(MOSI);
+            Serial.print("MISO: ");
+            Serial.println(MISO);
+            Serial.print("SCK: ");
+            Serial.println(SCK);
+        ```
 
+## result
+
+- when boot up
+
+![1.jpg](pic/1.jpg)
+
+- scan original card to record uid, than red light lights on means you can scan the new card and write the UID into it's block 0
+
+![2.jpg](pic/2.jpg)
+
+- when the green light lights on means the UID is copy completely
+
+![3.jpg](pic/3.jpg)
